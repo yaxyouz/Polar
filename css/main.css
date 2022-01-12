@@ -609,6 +609,7 @@ body {
     display: block;
     width: 305px;
     height: 627px;
+    border-radius: 33px;
     position: absolute;
     left: 0;
     top: -45px;
@@ -717,6 +718,10 @@ body {
     padding-bottom: 36px;
 }
 .form-section {
+    width: 636px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -730,7 +735,8 @@ body {
             align-items: center;
 }
 .form-tel {
-    padding: 28px 117px 28px 25px;
+    padding: 29px 25px;
+    width: 303px;
     border: 1px solid #FFA3A3;
     border-radius: 5px;
     margin-right: 30px;
@@ -771,7 +777,8 @@ body {
 .form-select {
     padding: 0;
     margin: 0;
-    padding: 27px 123px 26px 25px;
+    padding: 29px 25px;
+    width: 303px;
     border: 1px solid rgb(255, 163, 163);
     border-radius: 5px;
     color: rgb(15, 0, 0, 0.6);
@@ -779,11 +786,16 @@ body {
 .form-select:focus {
     outline: none;
 }
+.section-button {
+    position: relative;
+    width: 100%;
+    margin-top: 37px;
+}
 .form-text {
     border: 1px solid #FFA3A3;
     border-radius: 5px;
-    padding: 28px 451px 28px 25px;
-    margin-top: 37px;
+    padding: 29px 25px;
+    width: 100%;
 }
 .form-text::-webkit-input-placeholder {
     font-size: 14px;
@@ -821,10 +833,11 @@ body {
 .form-button {
     display: block;
     position: absolute; 
-    top: 402px;
-    right: 244px;
+    bottom: 0;
+    top: 0;
+    right: 0;
     cursor: pointer;
-    padding: 25px 44px 26px;
+    padding: 0 44px;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
