@@ -956,6 +956,7 @@ body {
     padding-bottom: 13px;
 }
 .form {
+    width: 388px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -966,11 +967,12 @@ body {
     position: relative;
 }
 .footer-input {
+    width: 100%;
     color: #fff;
     border: 2px solid rgb(214, 67, 116, 0.5);
     background-color: #0A0808;
     border-radius: 5px;
-    padding: 18px 193px 18px 32px;
+    padding: 18px 32px 18px 32px;
 }
 .footer-input::-webkit-input-placeholder {
     font-size: 14px;
@@ -1019,8 +1021,10 @@ body {
     border: none;
     position: absolute;
     right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0 18px;
     display: inline-block;
-    padding: 16px 18px;
     background-color: #D23166;
     border-radius: 5px;
 }
